@@ -72,6 +72,9 @@ async def handle_afk_incomming(message: Message) -> None:
             if REASON:
                 if "|" in REASON:
                     out_str = REASON.split('|')[1].strip()
+                    if out_str == "":
+                        out_str = (f"I'm **AFK** right now\n"
+                                f"Last Seen: `{afk_time} ago`")
                 else:
                     out_str = (f"I'm still **AFK**.\nReason: <code>{REASON}</code>\n"
                                 f"Last Seen: `{afk_time} ago`")
