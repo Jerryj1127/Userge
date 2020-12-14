@@ -41,6 +41,7 @@
         {"url": "https://github.com/rking32/heroku-buildpack-chromedriver"},
         {"url": "https://github.com/chrismytton/heroku-buildpack-jq.git"},
         {"url": "https://github.com/heroku/heroku-buildpack-apt.git"},
+        {"url": "https://github.com/jkutner/heroku-buildpack-ngrok"},
         {"url": "heroku/python"}
     ],
     "formation": {
